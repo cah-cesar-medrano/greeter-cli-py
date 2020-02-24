@@ -55,7 +55,7 @@ def load_names():
         return []
 
 
-def quit():
+def _quit():
     # Function dumps the names into a file, and prints a quit message
     try:
         file_object = open('names.pydata', 'wb')
@@ -85,7 +85,7 @@ while choice != 'q':
     elif choice == '2':
         get_new_name()
     elif choice == 'q':
-        quit()
+        _quit()
         print("\nThanks for playing. Bye.")
     else:
         print("\nI didn't understand that choice.\n")
