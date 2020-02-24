@@ -1,4 +1,3 @@
-# from time import sleep
 import os
 
 # Greeter is a terminal application that greets old friends warmly,
